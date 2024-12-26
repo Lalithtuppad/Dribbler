@@ -1,0 +1,362 @@
+section{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    /* height: 800px; */
+    /* align-items: center; */
+    margin: 0 auto;
+    /* border: 2px solid black; */
+}
+.left{
+    width: 70%;
+    /* border: 2px solid red; */
+    /* height: 600px; */
+    display: flex;
+    justify-content: left;
+    background-color:rgb(233,225,225);
+    position: relative;
+    /* margin: 50px 50px; */
+}
+.right{
+    width: 40%;
+    /* border: 2px solid blue; */
+    position: relative;
+    background-color:rgb(233,225,225);
+}
+.serenity{
+    width: 700px;
+    /* height: 900px; */
+    gap: 30px;
+    margin: 10px auto;
+    /* border: 2px solid green; */
+    background-color: rgb(245,245,245);
+    position: absolute;
+    border-radius: 20px;
+    left: 150px;
+    z-index: 99;
+    /* right: 20px; */
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.leftnav{
+    width: 90%;
+    /* border: 2px solid red; */
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftnav button{
+    /* width: 90%; */
+    /* border: 2px solid red; */
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(253,253,253);
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+.Mind{
+    width: 90%;
+    /* border: 2px solid yellow; */
+    border-radius: 20px;
+    height: 250px;
+    background-color:rgb(153,141,127);
+    display: flex;
+
+
+}
+.first11{
+    /* background-color: rgb(209,232,239); */
+
+    background-image: url('https://wallpaperaccess.com/full/654423.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+.second22{
+    /* background-color: rgb(217,218,211); */
+    background-image: url('https://th.bing.com/th/id/OIP.0z1i2rgu9StCgI1EvowPkAHaE8?rs=1&pid=ImgDetMain');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+.third33{
+    /* background-color: rgb(173,165,147); */
+    background-image: url('https://th.bing.com/th/id/OIP.NMMLaz8gq5c0R1JGQ0BNFgHaE8?rs=1&pid=ImgDetMain');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+.box
+{
+    width: 90%;
+    height: 250px;
+    display: flex;
+    gap: 10px;
+    /* border: 2px solid green; */
+}
+
+.studenttestimonial{
+    /* height: 200px; */
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+.studenttestimonial h1{
+text-align: center;
+}
+.testinomialpara{
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    width: 100px;
+    text-align: center;
+    height: 50px;
+}
+.meetourexpert{
+width: 90%;
+height: 200px;
+/* border: 2px solid red; */
+display: flex;
+justify-content: center;
+position: relative;
+font-size: 9px;
+align-items: center;
+left: 40px;
+}
+.meet{
+    width: 200px;
+    /* border: 2px solid yellow; */
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+.first{
+    background-color: rgb(158,131,106);
+    border-radius: 20px;
+
+}
+.second{
+/* background-color: rgb(175,168,157); */
+background-image: url('https://static.vecteezy.com/system/resources/previews/014/318/155/original/student-meditation-icon-cartoon-yoga-meditate-vector.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 20px;
+}
+
+.third{
+    background-color: rgb(175,168,157);
+    background-image: url('https://th.bing.com/th/id/R.bb407174c9e79f5d594258023695fc8e?rik=0SxhwM%2bmgGW9qQ&riu=http%3a%2f%2ffunnyexpo.com%2fwp-content%2fuploads%2f2017%2f08%2fYoga-Dog-Funny-Picture.jpg&ehk=ePoFslZl97ahQDQihsRoY7j7xoSsVcuL%2fSXl%2bNkgztw%3d&risl=&pid=ImgRaw&r=0');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+.meet h2{
+    border: 2px solid black;
+    border: none;
+    /* border-radius: 10px; */
+    margin:165px 10px;
+    background-color:rgba(123, 124, 119 ,0.2)
+}
+.four{
+    background-color: rgb(75,64,45);
+    background-image: url('https://th.bing.com/th/id/OIP.JUTzV1dLNf4YWmfFXjybsgAAAA?pid=ImgDet&w=189&h=198&c=7');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+}
+.workshop{
+    width: 100%;
+    border: 2px solid green;
+    height: 250px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.workshop1{
+    width: 150px;
+    height: 200px;
+    font-size: 12px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mindbacktext{
+    width: 70%;
+    text-align: center;
+}
+.mindbackimage{
+    background-image: url('https://i.pinimg.com/originals/d3/bc/e0/d3bce0093c741f6ca85e9888ed10c44c.jpg');
+    background-position: center;
+    /* border: 2px solid black; */
+    background-size: cover;
+    width: 80%;
+}
+.div2{
+    background-image: url('https://th.bing.com/th/id/R.a64ba75ac5634bbf05083c0cd47fb483?rik=%2bHoYlNBe%2bXYjtA&riu=http%3a%2f%2fwomenfitness.net%2fwp%2fwp-content%2fuploads%2f2016%2f07%2f2-23.jpg&ehk=KxOllGWskKYmkg%2fA%2b5%2ftOrXJF6xlFFxorXCHTq%2bV7Vc%3d&risl=&pid=ImgRaw&r=0');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.c{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.registerhere{
+    /* border: 2px solid black; */
+    /* height: 25px; */
+    background-color: rgba(255, 255, 255, 0.644);
+    color: black;
+    margin: 0px auto;
+
+}
+.div3{
+    background-image: url('https://th.bing.com/th?q=Yoga+Balance+Poses+for+Seniors&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-US&cc=US&setlang=en&adlt=moderate&t=1&mw=247');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+
+
+}
+.frequently{
+width: 100%;
+/* border: 2px solid green; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 9px;
+height: 300px;
+border-radius: 20px;
+background-color: rgb(218,216,216);
+}
+.improve{
+width: 100%;height: 180px;
+background-color: rgb(242,243,255);
+/* border: 2px solid black; */
+display: flex;
+flex-direction: column;
+justify-content: center;align-items: center;
+}
+.yoga{
+width: 100%;
+height: 300px;
+/* border: 2px solid pink; */
+display: flex;
+justify-content: center;
+font-size: small;
+background-color: rgb(242,243,255);
+/* align-items: center; */
+}
+.yogaleftbox{
+    /* border: 2px solid red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center; */
+    align-items: center;
+
+}
+.Subscribe{
+    /* border: 2px solid red; */
+    height: 50px;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.para{
+    text-align: center;
+    padding: 15px;
+}
+.sectiondiv{
+    gap: 10px;
+}
+.tw{
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    height: 35px;
+    width: 35px;
+}
+.tw img{
+width: 100%;
+
+}
+.blue
+{
+    background-color: rgb(42,165,241);
+}
+.red{
+    background-color: rgb(254,75,75);
+}
+.pink{
+    background-color: rgb(245,92,160);
+}
+.follow{
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    align-items:center;
+}
+.frequentlyrightdiv2{
+    /* border: 2px solid red; */
+    /* height: 30px; */
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px; */
+    box-shadow: rgba(224, 217, 217, 0.1) 0px 10px 15px -3px, rgba(235, 222, 222, 0.05) 0px 4px 6px -2px;
+    height: 15%;
+}
+.frequentlyrightdiv{
+    background-color: rgb(255,255,255);
+    /* border: 2px solid black; */
+    /* text-align: center; */
+    height: 90%;
+}
+.frequentlyleftdiv{
+    /* border: 2px solid black; */
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headerfreq h3{
+    border: 2px solid rgb(215, 212, 244);
+    /* box-shadow: rgba(224, 217, 217, 0.1) 0px 10px 15px -3px, rgba(235, 222, 222, 0.05) 0px 4px 6px -2px; */
+
+    width: 100%;
+    border-radius: 20px;
+    /* line-height: 2px; */
+}
+.frequentlyleftdiv2{
+    font-size: 20px;
+}
